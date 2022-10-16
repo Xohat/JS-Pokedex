@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pokemonList{
+    list-style: none;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pokemonCard{
+    background-color: yellow;
+    width: 200px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.pokemonImage{
+    image-rendering: pixelated;
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    background-size: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
